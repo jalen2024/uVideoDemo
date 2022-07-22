@@ -1,0 +1,55 @@
+.mine-header{
+	width: 100%;
+	height: 530upx;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.mine-header .mine-header-title{
+	font-size: 20px;
+	margin: 20upx 0;
+}
+.mine-header .usr-icon image{
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	margin-top: 100upx;
+}
+.mine-header .usr-name{
+	font-size: 18px;
+	margin-top: 20upx;
+}
+.mine-opt{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	background-color: #FFFFFF;
+}
+.opt{
+	width: 250upx;
+	height: 250upx;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	border: 1px solid #e9e9e9;
+}
+.opt .opt-icon{
+	font-size: 24px;
+}
+.opt .opt-name{
+	font-size: 16px;
+	margin-top: 10upx;
+}
+.about{
+	width: 100%;
+	height: 230upx;
+	margin-top: 10upx;
+	background-color: #FFFFFF;
+	padding: 10upx 0;
+}
+.about .about-title{
+	font-size: 16px;
+	text-align: center;
+}

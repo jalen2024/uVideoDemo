@@ -1,0 +1,129 @@
+.nav-box{
+	width: 100%;
+	height: 48px;
+	display: flex;
+	align-items: center;
+}
+.nav-box .nav-back{
+	width: 24px;
+	font-size: 24px;
+	margin-left: 30rpx;
+}
+.nav-search{
+	flex: 1;
+	height: 35px;
+	margin: 0 30px;
+	background-color: #fff;
+	border-radius: 15px;
+	display: flex;
+	align-items: center;
+}
+.nav-search .nav-search-icon{
+	width: 20px;
+	font-size: 28px;
+	margin-left: 10px;
+	margin-top: 3px;
+}
+.nav-search .nav-input{
+	flex: 1;
+	height: 100%;
+	margin: 0 10px;
+	color: #333333;
+	font-size: 18px;
+}
+.default-list{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	background-color: #FFFFFF;
+}
+.default-list .item{
+	display: flex;
+	flex-direction: column;
+	margin: 20rpx 10rpx;
+}
+.item .item-title{
+	display: flex;
+	align-items: center;
+	border-radius: 15px 15px 0 0;
+}
+.item .item-title .item-icon{
+	width: 20px;
+	font-size: 20px;
+	margin-left: 30rpx;
+}
+.item .item-title .item-name{
+	width: 250rpx;
+	font-size: 20px;
+	margin-left: 5rpx;
+	margin-top: 5rpx;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.item image{
+	width: 350rpx;
+	height: 200rpx;
+	border-radius: 0 0 15px 15px;
+}
+.default-opt{
+	width: 100%;
+	height: 45px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0 100rpx;
+	background-color: #FFFFFF;
+}
+.default-opt .opt{
+	width: 200rpx;
+	height: 35px;
+	display: flex;
+	align-items: center;
+	font-size: 16px;
+	border-radius: 15px;
+}
+.opt .opt-icon{
+	width: 20px;
+	font-size: 20px;
+	margin-left: 15rpx;
+}
+.opt .opt-name{
+	flex: 1;
+	text-align: center;
+	margin-right: 10rpx;
+}
+.video-list{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	background-color: #FFFFFF;
+}
+.single-video{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin: 10rpx;
+}
+.single-video image{
+	width: 230rpx;
+	height: 320rpx;
+	border-radius: 10px;
+	margin-top: 10rpx;
+}
+.single-video .video-name{
+	width: 210rpx;
+	font-size: 16px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	margin-top: 5rpx;
+	margin-left: 5rpx;
+}
+.not-have-anymore{
+	margin: 10rpx 0;
+	text-align: center;
+}
+

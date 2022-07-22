@@ -1,0 +1,32 @@
+.video-list{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	background-color: #FFFFFF;
+}
+.single-video{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin: 10upx;
+}
+.single-video image{
+	width: 230upx;
+	height: 320upx;
+	border-radius: 10px;
+	margin-top: 10upx;
+}
+.single-video .video-name{
+	width: 210upx;
+	font-size: 16px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	margin-top: 5upx;
+	margin-left: 5upx;
+}
+.not-have-anymore{
+	margin: 10upx 0;
+	text-align: center;
+}
