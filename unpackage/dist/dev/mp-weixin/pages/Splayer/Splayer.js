@@ -130,9 +130,7 @@ __webpack_require__.r(__webpack_exports__);
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0; //
-//
-//
+Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0; //
 //
 //
 //
@@ -146,33 +144,33 @@ var _default =
 {
   data: function data() {
     return {
+      autoplay: true,
       videoUrl: 'https://mhbucket.oss-cn-beijing.aliyuncs.com/video/1658500089041393.mp4' };
 
   },
   onLoad: function onLoad() {
     var that = this;
-    uni.getStorage({
-      key: 'video-name',
-      success: function success(res) {
-        that.videoUrl = res.data;
-      } }),
-
-    uni.removeStorage({
-      key: 'video-name',
-      success: function success() {
-        console.log('success');
-      } }),
-
+    // uni.getStorage({
+    // 	key: 'video-name',
+    // 	success(res){
+    // 		that.videoUrl = res.data;
+    // 	}
+    // }),
+    // uni.removeStorage({
+    // 	key: 'video-name',
+    // 	success() {
+    // 		console.log('success');
+    // 	}
+    // }),
     console.log(this.videoUrl);
   },
   onReady: function onReady() {
-
+    //
 
 
 
   },
   methods: {} };exports.default = _default;
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
 
 /***/ })
 
